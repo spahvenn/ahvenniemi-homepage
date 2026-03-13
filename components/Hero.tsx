@@ -85,12 +85,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-6 flex items-center gap-3 opacity-0-init animate-fade-up animate-delay-500">
-        <div className="w-px h-12 bg-linear-to-b from-transparent to-accent" />
-        <span className="font-mono text-xs text-muted tracking-widest uppercase">scroll</span>
-      </div>
     </section>
   );
 }
