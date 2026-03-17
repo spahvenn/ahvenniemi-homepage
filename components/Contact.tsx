@@ -1,8 +1,7 @@
-import EmailLink from './EmailLink';
-
 const socials = [
   { label: 'GitHub', handle: '@spahvenn', href: 'https://github.com/spahvenn/ahvenniemi-homepage' },
   { label: 'LinkedIn', handle: 'ahvenniemisami', href: 'https://linkedin.com/in/ahvenniemisami/' },
+  { label: 'Email', handle: 'spahvenn@gmail.com', href: 'mailto:spahvenn@gmail.com' },
 ];
 
 export default function Contact() {
@@ -40,7 +39,6 @@ export default function Contact() {
               </p>
             </a>
           ))}
-          <EmailLink />
         </div>
       </div>
 
