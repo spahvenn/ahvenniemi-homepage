@@ -35,18 +35,13 @@ export default function Projects() {
 
       <div className="space-y-6">
         {projects.map((project, i) => (
-          <div
-            key={project.title}
-            className="group border border-border bg-surface p-8 hover:border-accent/50 transition-all duration-300"
-          >
+          <div key={project.title} className="border border-border bg-surface p-8">
             <div className="flex items-start justify-between gap-4 mb-4">
               <div>
                 <span className="font-mono text-xs text-muted mb-2 block">
                   {String(i + 1).padStart(2, '0')}
                 </span>
-                <h3 className="font-sans font-600 text-2xl text-text group-hover:text-accent transition-colors">
-                  {project.title}
-                </h3>
+                <h3 className="font-sans font-600 text-2xl text-text">{project.title}</h3>
               </div>
             </div>
 

@@ -49,7 +49,7 @@ export default function About() {
             {skills.map((skill) => (
               <span
                 key={skill}
-                className="font-mono text-xs px-3 py-1.5 border border-border text-muted hover:border-accent hover:text-accent transition-colors duration-200 cursor-default"
+                className="font-mono text-xs px-3 py-1.5 border border-border text-muted"
               >
                 {skill}
               </span>
