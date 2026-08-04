@@ -72,16 +72,16 @@ export default function Hero() {
 
         <div className="flex gap-4 opacity-0-init animate-fade-up animate-delay-400">
           <a
-            href="#projects"
+            href="#about"
             className="px-6 py-3 bg-accent text-bg font-mono text-sm font-medium hover:bg-accent/90 transition-colors"
           >
-            view projects →
+            about
           </a>
           <a
-            href="#contact"
+            href="#projects"
             className="px-6 py-3 border border-border text-muted font-mono text-sm hover:border-accent hover:text-accent transition-colors"
           >
-            get in touch
+            view projects →
           </a>
         </div>
       </div>
